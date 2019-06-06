@@ -13,7 +13,7 @@ exports.up = function(knex, Promise) {
         tbl.integer('dish_id')
             .unsigned()
             .notNullable()
-            .references('id'npx )
+            .references('id')
             .inTable('dish')
             .onDelete('RESTRICT')
             .onUpdate('CASCADE');
