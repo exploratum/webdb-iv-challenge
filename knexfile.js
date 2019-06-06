@@ -7,6 +7,7 @@ module.exports = {
     connection: {
       filename: './data/cooking.db3'
     },
+    useNullAsDefault: true,
     migration: {
       directory:'./data/migrations'
     },
